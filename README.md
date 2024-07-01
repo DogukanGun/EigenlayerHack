@@ -9,3 +9,7 @@ Here is the flow for handling real time notifications for both on-chain and off-
 3-Then if the log is parsed without error, next step is getting metadata information from Dune Api. 
 
 4-The data that is gathered from Dune Api, is sent to the smart contract in Movement Chain by calling registerEvent function.
+
+
+
+SideNode: Due to the privacy of the project, the all code wasn't pushed. If it is requested, we can show it privately. 
