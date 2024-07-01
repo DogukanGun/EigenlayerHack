@@ -1,0 +1,64 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "avsName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "operatorName",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "avsAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "operatorAddress",
+				"type": "address"
+			}
+		],
+		"name": "registerEvent",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "events",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "avsName",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "operatorName",
+				"type": "string"
+			},
+			{
+				"internalType": "address",
+				"name": "avsAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "operatorAddress",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
